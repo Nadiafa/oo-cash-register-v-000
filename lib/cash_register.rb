@@ -17,6 +17,8 @@ class CashRegister
       @total -= discount_amount  
       puts "Your #{@discount}% discount has been applied."
       puts "After the discount, the total comes to $#{@total}."
+    else
+      
     end 
   end
 
