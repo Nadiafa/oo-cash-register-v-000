@@ -12,14 +12,18 @@ class CashRegister
   end 
   
   def apply_discount
-    discount_amount = @total * @discount/100
-    @total -= discount_amount 
-  end
+    
+  
+  
+  # def apply_discount
+  #   discount_amount = @total * @discount/100
+  #   @total -= discount_amount 
+  # end
 
-  def cash_register_with_discount
-    sef.apply_discount
-    puts "Your #{@discount}% discount has been applied."
-    puts "After the discount, the total comes to #{@total}."
-  end 
+  # def cash_register_with_discount
+  #   sef.apply_discount
+  #   puts "Your #{@discount}% discount has been applied."
+  #   puts "After the discount, the total comes to #{@total}."
+  # end 
   
 end 
