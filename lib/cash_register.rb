@@ -16,6 +16,7 @@ class CashRegister
     if discount > 0 
       @total -= @total*@discount/100
       success_message = "After the discount, the total comes to #{@total}."
+      success_message
     else
       return "There is no discount to apply."
     end 
