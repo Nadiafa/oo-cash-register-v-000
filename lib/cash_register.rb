@@ -12,7 +12,7 @@ class CashRegister
   end 
   
   def apply_discount
-    
+    the cash register was initialized with an employee discount
       applies the discount to the total price
       returns success message with updated total (FAILED - 1)
       reduces the total
