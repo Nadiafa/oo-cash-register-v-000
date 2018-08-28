@@ -15,7 +15,7 @@ class CashRegister
     if discount > 0
       discount_amount = @total * @discount/100
       @total -= discount_amount  
-      puts "Your #{discount}% discount has been applied."
+      puts "Your #{@discount}% discount has been applied."
     end 
   end
 
