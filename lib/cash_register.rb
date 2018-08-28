@@ -17,7 +17,7 @@ class CashRegister
       @total -= @total*@discount/100
       return "After the discount, the total comes to #{@total}."
     else
-      return 
+      return "There is no discount to apply."
     end 
     #   applies the discount to the total price
     #   returns success message with updated total (FAILED - 1)
