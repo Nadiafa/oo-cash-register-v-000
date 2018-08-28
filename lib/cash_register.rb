@@ -14,7 +14,8 @@ class CashRegister
   def apply_discount(discount=0)
     if discount > 0
       discount = @total * discount/100
-      @total += discount  
+      @total -= discount  
+      puts "Your discoutn  "
     end 
   end
 
