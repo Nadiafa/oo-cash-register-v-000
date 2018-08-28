@@ -1,10 +1,11 @@
 class CashRegister
   
   attr_accessor :discount, :total, :items
-
+  @items = []
   def initialize(discount=0)
     @total = 0
-    @discount = discount 
+    @discount = discount
+    @items << items
   end 
 
   def add_item(title, price, quantity=1)
@@ -26,15 +27,8 @@ class CashRegister
     #   returns a string error message that there is no discount to apply
   end
   
-  # def apply_discount
-  #   discount_amount = @total * @discount/100
-  #   @total -= discount_amount 
-  # end
-
-  # def cash_register_with_discount
-  #   sef.apply_discount
-  #   puts "Your #{@discount}% discount has been applied."
-  #   puts "After the discount, the total comes to #{@total}."
-  # end 
+  def items
+    @items
+  end 
   
 end 
