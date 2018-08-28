@@ -13,7 +13,11 @@ class CashRegister
   
   def apply_discount
     
-  
+      applies the discount to the total price
+      returns success message with updated total (FAILED - 1)
+      reduces the total
+    
+  end
   
   # def apply_discount
   #   discount_amount = @total * @discount/100
