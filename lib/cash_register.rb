@@ -15,7 +15,7 @@ class CashRegister
     # the cash register was initialized with an employee discount
     if discount > 0 
       @total -= @total*@discount/100
-      "Your #{@discount}% discount has been applied."
+      "After the discount, the total comes to #{@total}."
     end 
     #   applies the discount to the total price
     #   returns success message with updated total (FAILED - 1)
