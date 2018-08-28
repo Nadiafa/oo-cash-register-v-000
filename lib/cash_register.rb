@@ -13,8 +13,8 @@ class CashRegister
   
   def apply_discount(discount=0)
     if discount > 0
-      discounted_amount = @total * discount/100
-      @total -= discount  
+      discount_amount = @total * discount/100
+      @total -= discount_amount  
       puts "Your #{discount}% discount has been applied."
     end 
   end
