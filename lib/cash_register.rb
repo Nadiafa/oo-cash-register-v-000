@@ -16,7 +16,7 @@ class CashRegister
     @total -= discount_amount 
     if discount > 0
       puts "Your #{@discount}% discount has been applied."
-      puts "After the discount, the total comes to $#{@total}."
+      puts "After the discount, the total comes to #{@total}."
     else
       
     end 
